@@ -1,0 +1,304 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 9.0.4
+java.home            : C:\Program Files\Java\jre-9.0.4
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Sep 28 23:36:40 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:AccessibilityTesting] [TestCase: AccessibilityActions] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.5.0.0
+Listening on port 40589
+Only local connections are allowed
+2018-09-28 23:36:47:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+IE Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.bing.com | Conditon:  | @28-Sep-2018 23:36:47.047
+[DONE]   | Opened Url: https://www.bing.com
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: testAccessibility | Input: @Bing All | Conditon:  | @28-Sep-2018 23:36:49.049
+[FAIL]   | org.openqa.selenium.JavascriptException: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+
+===================================================================================================
+
+2018-09-28 23:36:52:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.JavascriptException: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+org.openqa.selenium.JavascriptException: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:443)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:404)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.injectIntoFrames(AXE.java:94)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.lambda$injectIntoFrames$2(AXE.java:111)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEach(Unknown Source)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.injectIntoFrames(AXE.java:105)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.inject(AXE.java:78)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE$Builder.<init>(AXE.java:213)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:63)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:47)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+Step:3   | Object: Browser | Action: testAccessibility | Input: @Bing Include @include span,a | Conditon:  | @28-Sep-2018 23:36:52.052
+[DONE]   | Bing Include - Passed all the recommendations by aXe
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: testAccessibility | Input: @Bing Exclude @exclude a | Conditon:  | @28-Sep-2018 23:37:40.040
+[FAIL]   | org.openqa.selenium.WebDriverException: Returned value cannot be converted to List<WebElement>: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: RemoteWebDriver
+
+===================================================================================================
+
+Couldn't take ScreenShot Driver is closed or connection is lost with driver
+2018-09-28 23:37:40:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.WebDriverException: Returned value cannot be converted to List<WebElement>: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to List<WebElement>: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:453)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:404)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.injectIntoFrames(AXE.java:94)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.inject(AXE.java:78)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE$Builder.<init>(AXE.java:213)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:63)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:47)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassCastException: java.base/java.lang.String cannot be cast to java.base/java.util.List
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:451)
+	... 20 more
+
+Step:5   | Object: Browser | Action: testAccessibility | Input: @Bing InExclude @include span, a @exclude p | Conditon:  | @28-Sep-2018 23:37:40.040
+[FAIL]   | org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+
+===================================================================================================
+
+Couldn't take ScreenShot Driver is closed or connection is lost with driver
+2018-09-28 23:37:40:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:443)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:404)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.injectIntoFrames(AXE.java:94)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.inject(AXE.java:78)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE$Builder.<init>(AXE.java:213)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:63)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:47)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+Step:6   | Object: Browser | Action: testAccessibility | Input: @BingOptions @options {runOnly:{type: "tag", values:["wcag2a"]}} | Conditon:  | @28-Sep-2018 23:37:40.040
+[FAIL]   | org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+
+===================================================================================================
+
+Couldn't take ScreenShot Driver is closed or connection is lost with driver
+2018-09-28 23:37:40:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onError:org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40589/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=XP, setWindowRect=true, platform=XP}]
+Session ID: 7fc01a9f-2257-4f74-bcb6-884dfef53f2c
+*** Element info: {Using=tag name, value=iframe}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:443)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:404)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.injectIntoFrames(AXE.java:94)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE.inject(AXE.java:78)
+	at com.cognizant.cognizantits.engine.reporting.aXe.AXE$Builder.<init>(AXE.java:213)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:63)
+	at com.cognizant.cognizantits.engine.commands.aXe.Accessibility.testAccessibility(Accessibility.java:47)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+Step:7   | Object: BingMenu | Action: testAccessibilityElement | Input:  | Conditon:  | @28-Sep-2018 23:37:40.040
+2018-09-28 23:37:40:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task runIteration:Driver IE Closed / Could not be reached
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver IE Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:148)
+	at com.cognizant.cognizantits.engine.core.CommandControl.canIFindElement(CommandControl.java:103)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:92)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | Driver IE Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : AccessibilityTesting:AccessibilityActions
+Executed Steps       : 7
+Passed Steps         : 2
+Failed Steps         : 5
+Time Taken           : 00:01:00
+-----------------------------------------------------
+
+Run Finished on Fri Sep 28 23:37:41 IST 2018
+Performance log not found. Make sure "capturePageTimings" action is included in testcase. 
+-----------------------------------------------------
+ExecutionDate        : 28-Sep-2018 23-36-40
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:00
+ReportPath           : file:///D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\DemoProject\Results\TestDesign\AccessibilityTesting\AccessibilityActions\28-Sep-2018 23-36-40\summary.html
+-----------------------------------------------------

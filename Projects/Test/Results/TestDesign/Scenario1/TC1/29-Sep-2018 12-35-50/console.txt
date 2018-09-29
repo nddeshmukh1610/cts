@@ -1,0 +1,75 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 9.0.4
+java.home            : C:\Program Files\Java\jre-9.0.4
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Sat Sep 29 12:35:50 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Scenario1] [TestCase: TC1] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 42937
+Only local connections are allowed.
+2018-09-29 12:35:53:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: 54.145.158.116:80 | Conditon:  | @29-Sep-2018 12:35:53.053
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : Default | Sheet : 54.145.158.116 | Field : 80 | TestCase : Scenario1/TC1 ]
+
+===================================================================================================
+
+2018-09-29 12:35:53:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Error in testcase [//Scenario1/TC1]
+com.cognizant.cognizantits.engine.execution.exception.TestFailedException: Error in testcase [//Scenario1/TC1]
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.onDataNotFoundException(TestCaseRunner.java:306)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:350)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: Test Data Not Found, Iteration - 1 is missing. 
+[Env : Default | Sheet : 54.145.158.116 | Field : 80 | TestCase : Scenario1/TC1 ]
+	at com.cognizant.cognizantits.engine.execution.data.DataAccessInternal.throwErrorWithCause(DataAccessInternal.java:287)
+	at com.cognizant.cognizantits.engine.execution.data.DataAccess.getData(DataAccess.java:71)
+	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolve(DataProcessor.java:64)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:169)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	... 5 more
+
+[DEBUG]   | Error in testcase [//Scenario1/TC1]
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Scenario1:TC1
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:03
+-----------------------------------------------------
+
+Run Finished on Sat Sep 29 12:35:54 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 29-Sep-2018 12-35-50
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:03
+ReportPath           : file:///C:\xpoc\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\Results\TestDesign\Scenario1\TC1\29-Sep-2018 12-35-50\summary.html
+-----------------------------------------------------

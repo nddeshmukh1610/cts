@@ -1,0 +1,157 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 9.0.4
+java.home            : C:\Program Files\Java\jre-9.0.4
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Sep 28 23:42:49 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.5.0.0
+Listening on port 47243
+Only local connections are allowed
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:42:55:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-09-28 23:43:01:09S +0530 [INFO] com.cognizant.cognizantits.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [NewTestCase]
+2018-09-28 23:43:01:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\TestPlan\NewScenario\NewTestCase.csv
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:43:04:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-28 23:43:04:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-09-28 23:43:34:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:43:49:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-28 23:43:49:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost2018-09-28 23:44:40:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+
+2018-09-28 23:47:22:09S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:48:12:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-28 23:48:12:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:48:35:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:48:58:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-28 23:48:58:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:49:01:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-09-29 00:02:21:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\TestPlan\NewScenario Renamed to Test
+2018-09-29 00:02:21:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [Test]
+2018-09-29 00:02:21:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [Test]
+2018-09-29 00:02:34:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\TestPlan\Test Renamed to Scenario1
+2018-09-29 00:02:34:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring started for Scenario [Test] to [Scenario1]
+2018-09-29 00:02:34:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring done for Scenario [Test] to [Scenario1]
+2018-09-29 00:03:06:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\TestPlan\Scenario1\NewTestCase.csv Renamed to TC1.csv
+2018-09-29 00:03:06:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [TC1]
+2018-09-29 00:03:06:09S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [TC1]
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-29 00:25:25:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-29 00:25:25:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-29 00:26:32:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-09-29 02:42:50:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: SeleniumDriver
+org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: SeleniumDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:205)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:197)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:156)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:202)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:167)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:157)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:139)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:87)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:337)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	... 16 more
+
+[DEBUG]   | java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: '5CG5210SK6', ip: '10.249.201.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: SeleniumDriver
+
+===================================================================================================
+
+2018-09-29 02:42:50:09S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:188)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:176)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:133)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 03:00:01
+-----------------------------------------------------
+
+Run Finished on Sat Sep 29 02:42:51 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 28-Sep-2018 23-42-49
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 03:00:01
+ReportPath           : file:///D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\Results\TestDesign\NewScenario\NewTestCase\28-Sep-2018 23-42-49\summary.html
+-----------------------------------------------------

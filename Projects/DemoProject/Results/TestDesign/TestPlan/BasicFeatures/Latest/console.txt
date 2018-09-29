@@ -1,0 +1,48 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 9.0.4
+java.home            : C:\Program Files\Java\jre-9.0.4
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Sep 28 23:58:12 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:TestPlan] [TestCase: BasicFeatures] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[main] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+2018-09-28 23:58:12:09S +0530 [WARNING] com.cognizant.cognizantits.engine.core.Task getTestCase:Scenario [TestPlan] not found
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.5.0.0
+Listening on port 42926
+Only local connections are allowed
+2018-09-28 23:58:35:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+IE Launched
+
+---------------------------------------------------
+Testcase Name        : TestPlan:BasicFeatures
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:23
+-----------------------------------------------------
+
+Run Finished on Fri Sep 28 23:58:36 IST 2018
+Performance log not found. Make sure "capturePageTimings" action is included in testcase. 
+-----------------------------------------------------
+ExecutionDate        : 28-Sep-2018 23-58-12
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:23
+ReportPath           : file:///projects/DemoProject\Results\TestDesign\TestPlan\BasicFeatures\28-Sep-2018 23-58-12\summary.html
+-----------------------------------------------------

@@ -1,0 +1,48 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 9.0.4
+java.home            : C:\Program Files\Java\jre-9.0.4
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Sep 28 23:41:23 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.5.0.0
+Listening on port 7565
+Only local connections are allowed
+jar:file:/D:/userdata/nadeshmu/Desktop/cognizant-intelligent-test-scripter-1.1-setup/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-09-28 23:41:40:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-28 23:41:40:09S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-09-28 23:41:43:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+IE Launched
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:20
+-----------------------------------------------------
+
+Run Finished on Fri Sep 28 23:41:44 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 28-Sep-2018 23-41-23
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:20
+ReportPath           : file:///D:\userdata\nadeshmu\Desktop\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\Results\TestDesign\NewScenario\NewTestCase\28-Sep-2018 23-41-23\summary.html
+-----------------------------------------------------

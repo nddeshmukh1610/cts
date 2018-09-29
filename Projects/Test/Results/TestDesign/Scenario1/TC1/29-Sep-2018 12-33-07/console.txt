@@ -1,0 +1,45 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 9.0.4
+java.home            : C:\Program Files\Java\jre-9.0.4
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Sat Sep 29 12:33:07 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Scenario1] [TestCase: TC1] [Description: Test Run] [Browser: IE] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching IE
+Launching Local Driver
+Started InternetExplorerDriver server (32-bit)
+3.5.0.0
+Listening on port 41618
+Only local connections are allowed
+2018-09-29 12:33:25:09S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+IE Launched
+
+---------------------------------------------------
+Testcase Name        : Scenario1:TC1
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:18
+-----------------------------------------------------
+
+Run Finished on Sat Sep 29 12:33:26 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 29-Sep-2018 12-33-07
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:19
+ReportPath           : file:///C:\xpoc\cognizant-intelligent-test-scripter-1.1-setup\Projects\Test\Results\TestDesign\Scenario1\TC1\29-Sep-2018 12-33-07\summary.html
+-----------------------------------------------------
